@@ -45,7 +45,7 @@ a:hover {
 }
 
 p {
-	letter-spacing: 0.5px;
+	letter-spacing: 0.2px;
     line-height: 2em;
     color: #fff;
   
@@ -58,7 +58,7 @@ h2, span, p, h4, video {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     color: #fff;
     letter-spacing: 0.2px;
