@@ -47,6 +47,11 @@ p {
 	letter-spacing: 0.5px;
     line-height: 2em;
     color: #fff;
+    margin: 20px 20px 20px 20px;
+}
+h2, span {
+   
+    margin: 20px 20px 20px 20px;
 }
 
 h4 {
@@ -54,11 +59,13 @@ h4 {
     font-weight: 700;
     color: #fff;
     letter-spacing: 0.5px;
+    margin: 20px 20px 20px 20px;
 }
 
 img {
     width: 100%;
     overflow: hidden;
+    margin: 20px 20px 20px 20px;
 }
 
 ul {
@@ -83,7 +90,7 @@ html {
     -webkit-box-sizing: inherit;
     -moz-box-sizing: inherit;
     box-sizing: inherit;
-    margin: 20px 20px 20px 20px;
+   
 }
 
 /*.clearfix {
