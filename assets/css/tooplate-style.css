@@ -12,7 +12,7 @@ body {
     /*font-family: 'Roboto', sans-serif;*/
 	overflow-x: hidden;
   
-}
+  }
 
 #page-wraper {
     background: #4AA0DD no-repeat center center fixed;
@@ -53,7 +53,7 @@ p {
 h2, span, p, h4, video {
     margin-top: 0px;
   margin-bottom: 0px;
-  margin-right: 3%px;
+  margin-right: 0%px;
   margin-left: 5%;
 }
 
@@ -65,13 +65,14 @@ h4 {
   
 }
 
+
 img {
-    width: 100%;
+    width: 95%;
     overflow: hidden;
      margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 0%;
-  margin-left: 50px;
+  margin-left: 3%;
   border-radius: 5px;
 }
 
@@ -97,9 +98,8 @@ html {
     -webkit-box-sizing: inherit;
     -moz-box-sizing: inherit;
     box-sizing: inherit;
-   margin-right: 3%;
+   
 }
-
 
 
 /* Left & Right Post */
