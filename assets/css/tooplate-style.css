@@ -6,10 +6,10 @@ https://www.tooplate.com/view/2116-blugoon
 
 */
 
-@import url(fontawesome.css);
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900");
+/*@import url(fontawesome.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900");*/
 body {
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
 	overflow-x: hidden;
 }
 
@@ -84,7 +84,7 @@ html {
     box-sizing: inherit;
 }
 
-.clearfix {
+/*.clearfix {
     zoom: 1;
 }
 
@@ -96,7 +96,7 @@ html {
 
 .clearfix:after {
     clear: both;
-}
+}*/
 
 .container {
     margin: 0 auto;
@@ -107,7 +107,7 @@ html {
 	padding: 0;
 }
 
-.main-nav {
+/*.main-nav {
     text-align: center;
 }
 
@@ -139,7 +139,7 @@ html {
 
 /* Sidebar Menu */
 
-.menu .image {
+/*.menu .image {
     margin-top: 50px;
 }
 
@@ -290,7 +290,7 @@ html {
     line-height: 66px;
 	font-size: 1.3em;
 }
-
+*/
 
 /* Section */
 
@@ -332,7 +332,7 @@ html {
 
 /* Buttons */
 
-.white-button a {
+/*.white-button a {
     display: inline-block;
     padding: 12px 22px;
     background-color: #fff;
@@ -479,7 +479,7 @@ button:hover {
 
 /* Services */
 
-.my-services .col-md-6 {
+/*.my-services .col-md-6 {
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -531,10 +531,10 @@ button:hover {
 }
 
 
-/* My Work */
+/* My Work  일자별 사진 크기 조정 */
 
 
-.isotope-wrapper {
+/*.isotope-wrapper {
     position: relative;
     width: 100%;
     margin: auto;
@@ -603,7 +603,7 @@ button:hover {
     min-height: 60px;
 }*/
 
-figure.snip1321 {
+/*figure.snip1321 {
   overflow: hidden;
   text-align: center;
   -webkit-perspective: 50em;
@@ -689,7 +689,7 @@ figure.snip1321.hover:after {
 
 /* Contact */
 
-section.contact-me {
+/*section.contact-me {
     border-bottom: none;
 }
 
@@ -735,16 +735,15 @@ section.contact-me {
 }
 
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #FFF;
+ /* color: #FFF;
   opacity: 0.6; /* Firefox */
-}
-
+/*
 .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #FFF;
+/*  color: #FFF;
 }
 
 .form-control::-ms-input-placeholder { /* Microsoft Edge */
-  color: #FFF;
+/*  color: #FFF;
 }
 
 @media screen and (max-width: 1680px) {
