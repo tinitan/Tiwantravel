@@ -54,7 +54,7 @@ h2, span, p, h4, video {
     margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 0%px;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
 h4 {
@@ -71,7 +71,7 @@ img {
     overflow: hidden;
      margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: 0%;
+  margin-right: 10%;
   margin-left: 3%;
   border-radius: 5px;
 }
