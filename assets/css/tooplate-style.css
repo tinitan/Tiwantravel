@@ -122,10 +122,11 @@ html {
     border-radius: 5px;
    position:absolute;
    /*-webkit-transition: 0.3s;  /* cubic-bezier(0,.43,1,0); /*captured 포시 */
-      -webkit-animation-delay: -2s!important;
+      -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      -webkit-animation-delay: -5s!important;
       -webkit-transform:scale(0.1);  
       -webkit-animation-name: movingPara;
-      -webkit-animation-duration: 4s;
+      -webkit-animation-duration: 24s;
       -webkit-animation-iteration-count: infinite;
 
       /*transition: 0.3s;  /* cubic-bezier(0,.43,1,0); /*captured 포시 */
