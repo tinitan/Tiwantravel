@@ -126,7 +126,7 @@ html {
       -webkit-animation-delay: -3s!important;
       -webkit-transform:scale(0.1);  
       -webkit-animation-name: movingPara;
-      -webkit-animation-duration: 14s;
+      -webkit-animation-duration: 6s;
       -webkit-animation-iteration-count: infinite;
 
       /*transition: 0.3s;  /* cubic-bezier(0,.43,1,0); /*captured 포시 */
@@ -134,7 +134,7 @@ html {
       animation-delay: -3s!important;
       transform:scale(0.1);
       animation-name: movingPara;
-      animation-duration: 14s;
+      animation-duration: 6s;
       animation-iteration-count: infinite;
 }
  @-webkit-keyframes movingPara {
