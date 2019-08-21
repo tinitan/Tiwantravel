@@ -126,7 +126,7 @@ html {
       -webkit-animation-delay: -3s!important;
       -webkit-transform:scale(0.1);  
       -webkit-animation-name: movingPara;
-      -webkit-animation-duration: 6s;
+      -webkit-animation-duration: 3s;
       -webkit-animation-iteration-count: infinite;
 
       /*transition: 0.3s;  /* cubic-bezier(0,.43,1,0); /*captured 포시 */
@@ -134,12 +134,12 @@ html {
       animation-delay: -3s!important;
       transform:scale(0.1);
       animation-name: movingPara;
-      animation-duration: 6s;
+      animation-duration: 3s;
       animation-iteration-count: infinite;
 }
  @-webkit-keyframes movingPara {
   
-      0% { margin-left :10%; margin-top: 80%; transform: scale(0.8); opacity : 0;} 
+      0% { margin-left :10%; margin-top: 70%; transform: scale(0.8); opacity : 0;} 
       10%{  margin-left :11%; margin-top: 60%; transform: scale(0.6);opacity : 1.0;}
       20%{  margin-left :12%; margin-top: 55%;}
       30% {  margin-left : 13%; margin-top: 50%;}
@@ -154,7 +154,7 @@ html {
     
  @keyframes movingPara {
 
-      0% { margin-left :10%; margin-top: 80%; transform: scale(0.8); opacity : 0;} 
+      0% { margin-left :10%; margin-top: 70%; transform: scale(0.8); opacity : 0;} 
       10%{  margin-left :11%; margin-top: 60%; transform: scale(0.6);opacity : 1.0;}
       20%{  margin-left :12%; margin-top: 55%;}
       30% {  margin-left : 13%; margin-top: 50%;}
