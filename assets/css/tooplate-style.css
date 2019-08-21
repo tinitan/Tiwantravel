@@ -131,7 +131,7 @@ html {
 
       /*transition: 0.3s;  /* cubic-bezier(0,.43,1,0); /*captured 포시 */
       transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-      animation-delay: 5s!important;
+      animation-delay: -1s!important;
       transform:scale(0.1);
       animation-name: movingPara;
       animation-duration: 14s;
