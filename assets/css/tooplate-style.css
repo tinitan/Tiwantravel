@@ -126,7 +126,7 @@ html {
       -webkit-animation-delay: -5s!important;
       -webkit-transform:scale(0.1);  
       -webkit-animation-name: movingPara;
-      -webkit-animation-duration: 24s;
+      -webkit-animation-duration: 14s;
       -webkit-animation-iteration-count: infinite;
 
       /*transition: 0.3s;  /* cubic-bezier(0,.43,1,0); /*captured 포시 */
@@ -134,7 +134,7 @@ html {
       animation-delay: 5s!important;
       transform:scale(0.1);
       animation-name: movingPara;
-      animation-duration: 24s;
+      animation-duration: 14s;
       animation-iteration-count: infinite;
 }
  @-webkit-keyframes movingPara {
@@ -145,9 +145,9 @@ html {
       30% {  margin-left : 20%; margin-top: 50%;}
       40% {  margin-left : 25%; margin-top: 45%;}
       50% {   margin-left: 25%;margin-top: 35%; }
-      60% {  margin-left: 35%;margin-top: 25%; transform: scale(0.1); }
+      60% {  margin-left: 35%;margin-top: 25%; transform: scale(0.5); }
       80% {  margin-left: 40%;margin-top: 10%;  }
-      90% {  margin-left: 45%;margin-top: -15%;  }
+      90% {  margin-left: 45%;margin-top: -15%; transform: scale(0.1); }
       95% {  margin-left: 55%; margin-top: -30%; opacity : 0.5;}
       100% {   margin-left: 60%;margin-top: -50%; opacity : 0;}
       
@@ -161,9 +161,9 @@ html {
       30% {  margin-left : 20%; margin-top: 50%;}
       40% {  margin-left : 25%; margin-top: 45%;}
       50% {   margin-left: 25%;margin-top: 35%; }
-      60% {  margin-left: 35%;margin-top: 25%; transform: scale(0.1); }
+      60% {  margin-left: 35%;margin-top: 25%; transform: scale(0.5); }
       80% {  margin-left: 40%;margin-top: 10%;  }
-      90% {  margin-left: 45%;margin-top: -15%;  }
+      90% {  margin-left: 45%;margin-top: -15%; transform: scale(0.1); }
       95% {  margin-left: 55%; margin-top: -30%; opacity : 0.5;}
       100% {   margin-left: 60%;margin-top: -50%; opacity : 0;}
       
