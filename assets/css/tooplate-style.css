@@ -91,13 +91,15 @@ html {
 
 
 .ballonimage  { 
-    width: 340px; 
-    height: 560px; 
-    overflow: hidden;
+   /*width: 340px;
+    height: 560px; */
+    width: auto; 
+    height: 560px;
+    /*overflow: hidden;*/
     background-image: 
     url(../images/풍등날리기.jpg);
     background-repeat: no-repeat;
-    background-size: 360px 560px;
+    background-size: contain;
     /*background-position: 0px 0px;
     background-repeat: repeat-x;*/
     border-radius: 5px;
@@ -107,6 +109,27 @@ html {
   margin-left: 20px;
    
 }
+
+/*.imagemain  {
+
+    width: auto; 
+    height: 300px;
+    /*overflow: hidden;*/
+   /*background-image: 
+    url(../images/독도.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-position: 0px 0px;
+    background-repeat: repeat-x;*/
+    /*border-radius: 5px;
+     margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 2%;
+   
+}*/
+
 /* 에니메이션 */
 .ballonimage:after { 
     content:'';
